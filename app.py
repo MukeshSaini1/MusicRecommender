@@ -90,3 +90,22 @@ if st.button('Get Recommendations'):
     }
     </style>
     """, unsafe_allow_html=True)
+
+# Add footer with HTML and CSS
+st.markdown("""
+    <style>
+    .footer {
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+    }
+    </style>
+    <div class="footer">
+        <p>Designed by Mukesh Saini and Adarsh Verma | Submitted to Summit Sir (Data Scientist)</p>
+    </div>
+    """, unsafe_allow_html=True)
