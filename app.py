@@ -91,7 +91,7 @@ if st.button('Get Recommendations'):
     </style>
     """, unsafe_allow_html=True)
 
-# Add footer with HTML and CSS
+# Add footer with black background and white text
 st.markdown("""
     <style>
     .footer {
@@ -99,9 +99,8 @@ st.markdown("""
         padding: 10px;
         position: fixed;
         bottom: 0;
-        width: 100%;
-        background-color: #f1f1f1;
-        border-top: 1px solid #ddd;
+        width: 100%;     
+        color: #fff;
         font-size: 14px;
     }
     </style>
