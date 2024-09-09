@@ -104,7 +104,5 @@ st.markdown("""
         font-size: 14px;
     }
     </style>
-    <div class="footer">
-        <p>Designed by Mukesh Saini and Adarsh Verma | Submitted to Summit Sir (Data Scientist)</p>
-    </div>
+   
     """, unsafe_allow_html=True)
